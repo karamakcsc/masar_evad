@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include masar_evad *.css
+recursive-include masar_evad *.csv
+recursive-include masar_evad *.html
+recursive-include masar_evad *.ico
+recursive-include masar_evad *.js
+recursive-include masar_evad *.json
+recursive-include masar_evad *.md
+recursive-include masar_evad *.png
+recursive-include masar_evad *.py
+recursive-include masar_evad *.svg
+recursive-include masar_evad *.txt
+recursive-exclude masar_evad *.pyc
