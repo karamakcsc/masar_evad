@@ -179,3 +179,12 @@ user_data_fields = [
 #	"masar_evad.auth.validate"
 # ]
 
+fixtures = [
+	{"dt": "Custom Field", "filters": [
+		[
+			"name", "in", [
+				  "Purchase Order-quotation_number",
+				  ]
+		]
+	]}
+]
