@@ -184,6 +184,10 @@ fixtures = [
 		[
 			"name", "in", [
 				  "Purchase Order-quotation_number",
+				  "Project-user_name",
+				  "Project-end_user",
+				  "Project-customer_name",
+				  "Project-customer"
 				  ]
 		]
 	]}
