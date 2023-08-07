@@ -9,6 +9,8 @@
  "field_order": [
   "naming_series",
   "user_name",
+  "column_break_rhkme",
+  "posting_date",
   "address"
  ],
  "fields": [
@@ -22,8 +24,9 @@
   {
    "fieldname": "naming_series",
    "fieldtype": "Select",
+   "hidden": 1,
    "label": "Series",
-   "options": "EV-.EUSER-.YYYY-."
+   "options": "EV-.USER-."
   },
   {
    "fieldname": "address",
@@ -31,11 +34,24 @@
    "in_list_view": 1,
    "label": "Address",
    "reqd": 1
+  },
+  {
+   "default": "Today",
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Posting Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_rhkme",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-08-07 14:10:51.694200",
+ "modified": "2023-08-07 14:23:51.888296",
  "modified_by": "Administrator",
  "module": "Masar Evad",
  "name": "End User",
